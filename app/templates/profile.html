@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block main %}
+<div id="mainDiv">
+  <div id="div1">
+    <div id="div2">
+      <img
+        src="{{ url_for('static', filename='profileImg.jpg') }}"
+        alt="Image not found"
+      />
+    </div>
+    <h1>Daeshaun Gouldbourne</h1>
+    <p>
+      @deshydon <br />
+      Kingston, Jamaica <br />
+      Joined {{ dateJoined }}
+    </p>
+  </div>
+  <div>
+    <p>
+      As a dedicated and ambitious computer science student, I am driven by my
+      passion for technology and innovative solutions. With a strong foundation
+      in programming, algorithms, and software development, I am constantly
+      looking for new challenges to improve my skills. My innovative projects
+      and hands-on experience have given me a deep understanding of the
+      importance of teamwork and collaboration in the field. In my free time, I
+      explore emerging technologies, participate in hackathons, and attend tech
+      events to stay up-to-date with the latest developments.
+    </p>
+    <table>
+      <tr>
+        <th>Posts</th>
+        <th>Following</th>
+        <th>Followers</th>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>10</td>
+        <td>100</td>
+      </tr>
+    </table>
+    <button id="btn">Follow</button>
+  </div>
+</div>
+{% endblock %}

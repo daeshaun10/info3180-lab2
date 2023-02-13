@@ -1,3 +1,57 @@
 body {
     padding-top: 5rem;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+#mainDiv{
+    border:3px solid rgba(128, 128, 128, 0.493);
+    padding: 20px 20px 20px 20px;
+}
+#div1{
+    width: auto; 
+    height: 280px; 
+    background-color: rgb(247, 215, 168);
+}
+#div2{
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 5px 8px 9px rgba(0, 0, 0, 0.4);
+}
+p,h1{
+    text-align: center;
+}
+p{
+    color: gray;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto; 
+}
+td,th{
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
+button{
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: blanchedalmond ;
+}
+button:hover{
+    background-color: rgb(247, 215, 168);
 }
